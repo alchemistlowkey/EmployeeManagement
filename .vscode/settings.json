@@ -1,0 +1,70 @@
+{
+  // ── Core C# / OmniSharp settings ───────────────────────────────────────
+  "dotnet.defaultSolution": "EmployeeManagement.sln",
+  "omnisharp.enableRoslynAnalyzers": true,
+  "omnisharp.enableEditorConfigSupport": true,
+  "omnisharp.useModernNet": true,
+
+  // ── Razor Language Server & Formatting ──────────────────────────────────
+  "razor.format.enable": true,
+  "razor.format.codeBlockFormatting": true,
+
+  // ── Razor Editor Configuration ──────────────────────────────────────────
+  "[aspnetcorerazor]": {
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "ms-dotnettools.csharp",
+    "editor.quickSuggestions": {
+      "other": true,
+      "comments": false,
+      "strings": true
+    },
+    "editor.suggest.snippetsPreventQuickSuggestions": false
+  },
+
+  // ── CSS Class IntelliSense ──────────────────────────────────────────────
+  "css.styleSheets": [
+    "wwwroot/lib/bootstrap/css/bootstrap.min.css",
+    "wwwroot/css/site.min.css"
+  ],
+
+  // ── HTML & Emmet Configuration ──────────────────────────────────────────
+  "html.format.enable": true,
+  "html.format.wrapAttributes": "force-expand-multiline",
+  "html.suggest.html5": true,
+  "emmet.includeLanguages": {
+    "aspnetcorerazor": "html"
+  },
+  "emmet.triggerExpansionOnTab": true,
+
+  // ── General Editor Suggestions ──────────────────────────────────────────
+  "editor.suggestSelection": "first",
+  "editor.acceptSuggestionOnEnter": "on",
+  "editor.acceptSuggestionOnCommitCharacter": true,
+
+  // ── File Associations & Formatting ──────────────────────────────────────
+  "files.associations": {
+    "*.cshtml": "aspnetcorerazor"
+  },
+  "dotnet.formatting.organizeImportsOnFormat": true,
+
+  // ── Windsurf AI / Codeium Configuration ─────────────────────────────────
+  "editor.inlineSuggest.enabled": true,
+
+  // Enable Codeium/Windsurf for all languages including Razor
+  "codeium.enableConfig": {
+    "*": true,
+    "csharp": true,
+    "aspnetcorerazor": true,
+    "razor": true,
+    "html": true
+  },
+
+  "codeium.enableCodeLens": true,
+  "codeium.enableSearch": true,
+
+  // Ensure inline suggestions show up
+  "editor.inlineSuggest.suppressSuggestions": false,
+
+  // Optional: Configure suggestion behavior
+  "codeium.aggressiveMode": false
+}

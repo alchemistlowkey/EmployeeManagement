@@ -1,0 +1,132 @@
+﻿@model EmployeeEditViewModel
+
+@{
+    ViewBag.Title = "Edit Employee";
+    var photoPath = "~/images/" + (Model.ExistingPhotoPath ?? "tech.jpg");
+}
+
+<form
+    enctype="multipart/form-data"
+    asp-controller="Home"
+    asp-action="edit"
+    method="post"
+    class="mt-3 gap-3 flex-column d-flex"
+>
+    <input
+        hidden
+        asp-for="Id"
+    />
+    <input
+        hidden
+        asp-for="ExistingPhotoPath"
+    />
+    @* ========= Name =========== *@
+    <div class="form-group row">
+        <label
+            class="col-sm-2 col-form-label"
+            asp-for="Name"
+        ></label>
+        <div class="col-sm-10">
+            <input
+                asp-for="Name"
+                class="form-control"
+                placeholder="Name"
+            />
+            <span
+                asp-validation-for="Name"
+                class="text-danger"
+            ></span>
+        </div>
+    </div>
+
+    @* ========= Email =========== *@
+    <div class="form-group row">
+        <label
+            class="col-sm-2 col-form-label"
+            asp-for="Email"
+        ></label>
+        <div class="col-sm-10">
+            <input
+                asp-for="Email"
+                class="form-control"
+                placeholder="Email"
+            />
+            <span
+                asp-validation-for="Email"
+                class="text-danger"
+            ></span>
+        </div>
+    </div>
+
+    @* ========= Department =========== *@
+    <div class="form-group row">
+        <label
+            class="col-sm-2 col-form-label"
+            asp-for="Department"
+        ></label>
+        <div class="col-sm-10">
+            <select
+                asp-for="Department"
+                class="form-select mr-sm-2"
+                asp-items="Html.GetEnumSelectList<Dept>()"
+            >
+                <option value="">Please Select</option>
+            </select>
+            <span
+                asp-validation-for="Department"
+                class="text-danger"
+            ></span>
+        </div>
+    </div>
+
+    @* ========= Photo =========== *@
+    <div class="form-group row">
+        <label
+            class="col-sm-2 col-form-label"
+            asp-for="Photo"
+        ></label>
+        <div class="col-sm-10">
+            <div class="">
+                <input
+                    multiple
+                    asp-for="Photo"
+                    class="form-control"
+                    placeholder="Click here to change Photo"
+                />
+            </div>
+        </div>
+    </div>
+
+    <div class="form-control row">
+        <div class="col-sm-4 offset-4">
+            <img
+                src="@photoPath"
+                alt=""
+                asp-append-version="true"
+                class=""
+            >
+        </div>
+    </div>
+
+    @* ========= Validation Summary =========== *@
+    <div
+        asp-validation-summary="All"
+        class="text-danger"
+    ></div>
+
+    @* ========= Submit Button =========== *@
+    <div class="form-group row">
+        <div class="col-sm-10">
+            <button
+                type="submit"
+                class="btn btn-primary"
+            >Update</button>
+            <a
+                asp-controller="home"
+                asp-action="index"
+                class="btn btn-warning"
+            >Cancel</a>
+        </div>
+    </div>
+
+</form>

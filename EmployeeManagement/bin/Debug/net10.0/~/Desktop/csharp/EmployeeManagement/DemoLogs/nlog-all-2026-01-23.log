@@ -1,0 +1,429 @@
+2026-01-23 18:28:11.2790|DEBUG|Microsoft.AspNetCore.Mvc.Razor.Compilation.DefaultViewCompiler|Initializing Razor view compiler with compiled view: '/Views/Home/Create.cshtml'.
+2026-01-23 18:28:11.3501|DEBUG|Microsoft.AspNetCore.Mvc.Razor.Compilation.DefaultViewCompiler|Initializing Razor view compiler with compiled view: '/Views/Home/Details.cshtml'.
+2026-01-23 18:28:11.3501|DEBUG|Microsoft.AspNetCore.Mvc.Razor.Compilation.DefaultViewCompiler|Initializing Razor view compiler with compiled view: '/Views/Home/Edit.cshtml'.
+2026-01-23 18:28:11.3501|DEBUG|Microsoft.AspNetCore.Mvc.Razor.Compilation.DefaultViewCompiler|Initializing Razor view compiler with compiled view: '/Views/Home/EmployeeNotFound.cshtml'.
+2026-01-23 18:28:11.3501|DEBUG|Microsoft.AspNetCore.Mvc.Razor.Compilation.DefaultViewCompiler|Initializing Razor view compiler with compiled view: '/Views/Home/Index.cshtml'.
+2026-01-23 18:28:11.3501|DEBUG|Microsoft.AspNetCore.Mvc.Razor.Compilation.DefaultViewCompiler|Initializing Razor view compiler with compiled view: '/Views/Shared/Error.cshtml'.
+2026-01-23 18:28:11.3501|DEBUG|Microsoft.AspNetCore.Mvc.Razor.Compilation.DefaultViewCompiler|Initializing Razor view compiler with compiled view: '/Views/Shared/NotFound.cshtml'.
+2026-01-23 18:28:11.3501|DEBUG|Microsoft.AspNetCore.Mvc.Razor.Compilation.DefaultViewCompiler|Initializing Razor view compiler with compiled view: '/Views/Shared/_Layout.cshtml'.
+2026-01-23 18:28:11.3501|DEBUG|Microsoft.AspNetCore.Mvc.Razor.Compilation.DefaultViewCompiler|Initializing Razor view compiler with compiled view: '/Views/_viewImports.cshtml'.
+2026-01-23 18:28:11.3507|DEBUG|Microsoft.AspNetCore.Mvc.Razor.Compilation.DefaultViewCompiler|Initializing Razor view compiler with compiled view: '/Views/_ViewStart.cshtml'.
+2026-01-23 18:28:11.3639|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ModelBinderFactory|Registered model binder providers, in the following order: Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider
+2026-01-23 18:28:11.4497|DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting starting
+2026-01-23 18:28:11.4603|INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using '/home/alchemistlowkey/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2026-01-23 18:28:11.4743|DEBUG|Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository|Reading data from file '/home/alchemistlowkey/.aspnet/DataProtection-Keys/key-897e13d8-b34d-46d5-b1d8-3077a2020fcd.xml'.
+2026-01-23 18:28:11.4928|DEBUG|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|Found key {897e13d8-b34d-46d5-b1d8-3077a2020fcd}.
+2026-01-23 18:28:11.5214|DEBUG|Microsoft.AspNetCore.DataProtection.KeyManagement.DefaultKeyResolver|Considering key {897e13d8-b34d-46d5-b1d8-3077a2020fcd} with expiration date 2026-04-13 16:25:42Z as default key.
+2026-01-23 18:28:11.5233|DEBUG|Microsoft.AspNetCore.DataProtection.TypeForwardingActivator|Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=10.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2026-01-23 18:28:11.5266|DEBUG|Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ManagedAuthenticatedEncryptorFactory|Using managed symmetric algorithm 'System.Security.Cryptography.Aes'.
+2026-01-23 18:28:11.5269|DEBUG|Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ManagedAuthenticatedEncryptorFactory|Using managed keyed hash algorithm 'System.Security.Cryptography.HMACSHA256'.
+2026-01-23 18:28:11.5393|DEBUG|Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingProvider|Using key {897e13d8-b34d-46d5-b1d8-3077a2020fcd} as the default key.
+2026-01-23 18:28:11.5403|DEBUG|Microsoft.AspNetCore.DataProtection.Internal.DataProtectionHostedService|Key ring with default key {897e13d8-b34d-46d5-b1d8-3077a2020fcd} was loaded during application startup.
+2026-01-23 18:28:11.5482|DEBUG|Microsoft.AspNetCore.Watch.BrowserRefresh.BlazorWasmHotReloadMiddleware|Middleware loaded
+2026-01-23 18:28:11.5515|DEBUG|Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserScriptMiddleware|Middleware loaded. Script /_framework/aspnetcore-browser-refresh.js (16091 B).
+2026-01-23 18:28:11.5589|DEBUG|Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserScriptMiddleware|Middleware loaded. Script /_framework/blazor-hotreload.js (776 B).
+2026-01-23 18:28:11.6260|DEBUG|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|Middleware configuration started with options: {AllowedHosts = *, AllowEmptyHosts = True, IncludeFailureMessage = True}
+2026-01-23 18:28:11.6322|DEBUG|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|Wildcard detected, all requests with hosts will be allowed.
+2026-01-23 18:28:11.6335|DEBUG|Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware|Middleware loaded: DOTNET_MODIFIABLE_ASSEMBLIES=debug, __ASPNETCORE_BROWSER_TOOLS=true
+2026-01-23 18:28:11.6606|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5181
+2026-01-23 18:28:11.6610|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly EmployeeManagement
+2026-01-23 18:28:11.6610|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2026-01-23 18:28:11.6610|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2026-01-23 18:28:11.6610|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Production
+2026-01-23 18:28:11.6617|INFO|Microsoft.Hosting.Lifetime|Content root path: /home/alchemistlowkey/Desktop/csharp/EmployeeManagement/EmployeeManagement
+2026-01-23 18:28:11.6617|DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting started
+2026-01-23 18:28:11.9082|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HNIQKJ48RC5P" accepted.
+2026-01-23 18:28:11.9091|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HNIQKJ48RC5Q" accepted.
+2026-01-23 18:28:11.9098|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HNIQKJ48RC5P" started.
+2026-01-23 18:28:11.9098|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HNIQKJ48RC5Q" started.
+2026-01-23 18:28:11.9812|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:5181/ - - -
+2026-01-23 18:28:11.9989|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed.
+2026-01-23 18:28:12.0785|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|1 candidate(s) found for the request path '/'
+2026-01-23 18:28:12.0861|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|Endpoint 'EmployeeManagement.Controllers.HomeController.Index (EmployeeManagement)' with route pattern '{controller=Home}/{action=Index}/{id?}' is valid for the request path '/'
+2026-01-23 18:28:12.0876|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request matched endpoint 'EmployeeManagement.Controllers.HomeController.Index (EmployeeManagement)'
+2026-01-23 18:28:12.0894|TRACE|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|The endpoint does not specify the IRequestSizeLimitMetadata.
+2026-01-23 18:28:12.0997|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Static files was skipped as the request already matched an endpoint.
+2026-01-23 18:28:12.1010|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'EmployeeManagement.Controllers.HomeController.Index (EmployeeManagement)'
+2026-01-23 18:28:12.1272|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ViewResult Index() on controller EmployeeManagement.Controllers.HomeController (EmployeeManagement).
+2026-01-23 18:28:12.1331|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of authorization filters (in the following order): None
+2026-01-23 18:28:12.1331|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of resource filters (in the following order): Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter
+2026-01-23 18:28:12.1348|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter (Order: -2147483648), Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)
+2026-01-23 18:28:12.1348|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of exception filters (in the following order): None
+2026-01-23 18:28:12.1348|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter
+2026-01-23 18:28:12.1371|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Resource Filter: Before executing OnResourceExecuting on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter.
+2026-01-23 18:28:12.1371|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Resource Filter: After executing OnResourceExecuting on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter.
+2026-01-23 18:28:12.1400|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing controller factory for controller EmployeeManagement.Controllers.HomeController (EmployeeManagement)
+2026-01-23 18:28:12.3231|DEBUG|Microsoft.EntityFrameworkCore.Infrastructure|An 'IServiceProvider' was created for internal use by Entity Framework.
+2026-01-23 18:28:12.3717|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed controller factory for controller EmployeeManagement.Controllers.HomeController (EmployeeManagement)
+2026-01-23 18:28:12.3722|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecutionAsync on filter Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter.
+2026-01-23 18:28:12.3730|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2026-01-23 18:28:12.3730|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2026-01-23 18:28:12.3905|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing action method EmployeeManagement.Controllers.HomeController.Index (EmployeeManagement) - Validation state: Valid
+2026-01-23 18:28:12.4245|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action method EmployeeManagement.Controllers.HomeController.Index (EmployeeManagement), returned result Microsoft.AspNetCore.Mvc.ViewResult in 3.1248ms.
+2026-01-23 18:28:12.4248|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2026-01-23 18:28:12.4248|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2026-01-23 18:28:12.4248|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecutionAsync on filter Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter.
+2026-01-23 18:28:12.4248|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: Before executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter.
+2026-01-23 18:28:12.4259|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: After executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter.
+2026-01-23 18:28:12.4277|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Before executing action result Microsoft.AspNetCore.Mvc.ViewResult.
+2026-01-23 18:28:12.4325|DEBUG|Microsoft.AspNetCore.Mvc.Razor.RazorViewEngine|View lookup cache miss for view 'Index' in controller 'Home'.
+2026-01-23 18:28:12.4338|TRACE|Microsoft.AspNetCore.Mvc.Razor.Compilation.DefaultViewCompiler|Located compiled view for view at path '/Views/Home/Index.cshtml'.
+2026-01-23 18:28:12.4378|TRACE|Microsoft.AspNetCore.Mvc.Razor.Compilation.DefaultViewCompiler|Could not find a file for view at path '/Views/Home/_ViewStart.cshtml'.
+2026-01-23 18:28:12.4378|TRACE|Microsoft.AspNetCore.Mvc.Razor.Compilation.DefaultViewCompiler|Located compiled view for view at path '/Views/_ViewStart.cshtml'.
+2026-01-23 18:28:12.4397|TRACE|Microsoft.AspNetCore.Mvc.Razor.Compilation.DefaultViewCompiler|Could not find a file for view at path '/_ViewStart.cshtml'.
+2026-01-23 18:28:12.4429|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executing ViewResult, running view Index.
+2026-01-23 18:28:12.4561|DEBUG|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|The view path '/Views/Home/Index.cshtml' was found in 11.8544ms.
+2026-01-23 18:28:13.5109|DEBUG|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 10.0.2 initialized 'AppDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:10.0.2' with options: MaxPoolSize=1024 EngineType=SqlServer 
+2026-01-23 18:28:13.5427|DEBUG|Microsoft.EntityFrameworkCore.Query|Compiling query expression: 
+'DbSet<Employee>()'
+2026-01-23 18:28:13.9176|DEBUG|Microsoft.EntityFrameworkCore.Query|Generated query execution expression: 
+'queryContext => SingleQueryingEnumerable.Create<Employee>(
+    relationalQueryContext: (RelationalQueryContext)queryContext, 
+    relationalCommandResolver: parameters => [LIFTABLE Constant: RelationalCommandCache.QueryExpression(
+        Projection Mapping:
+            EmptyProjectionMember -> Dictionary<IPropertyBase, int> { [Property: Employee.Id (int) Required PK AfterSave:Throw ValueGenerated.OnAdd, 0], [Property: Employee.Department (Dept?) Required, 1], [Property: Employee.Email (string) Required, 2], [Property: Employee.Name (string) Required MaxLength(50), 3], [Property: Employee.PhotoPath (string), 4] }
+        SELECT e.Id, e.Department, e.Email, e.Name, e.PhotoPath
+        FROM Employees AS e) | Resolver: c => new RelationalCommandCache(
+        c.Dependencies.MemoryCache, 
+        c.RelationalDependencies.QuerySqlGeneratorFactory, 
+        c.RelationalDependencies.RelationalParameterBasedSqlProcessorFactory, 
+        Projection Mapping:
+            EmptyProjectionMember -> Dictionary<IPropertyBase, int> { [Property: Employee.Id (int) Required PK AfterSave:Throw ValueGenerated.OnAdd, 0], [Property: Employee.Department (Dept?) Required, 1], [Property: Employee.Email (string) Required, 2], [Property: Employee.Name (string) Required MaxLength(50), 3], [Property: Employee.PhotoPath (string), 4] }
+        SELECT e.Id, e.Department, e.Email, e.Name, e.PhotoPath
+        FROM Employees AS e, 
+        False, 
+        MultipleParameters
+    )].GetRelationalCommandTemplate(parameters), 
+    readerColumns: null, 
+    shaper: (queryContext, dataReader, resultContext, resultCoordinator) => 
+    {
+        Employee entity;
+        entity = 
+        {
+            MaterializationContext materializationContext1;
+            IEntityType entityType1;
+            Employee instance1;
+            InternalEntityEntry entry1;
+            bool hasNullKey1;
+            materializationContext1 = new MaterializationContext(
+                [LIFTABLE Constant: ValueBuffer | Resolver: _ => (object)ValueBuffer.Empty], 
+                queryContext.Context
+            );
+            instance1 = default(Employee);
+            entry1 = queryContext.TryGetEntry(
+                key: [LIFTABLE Constant: Key: Employee.Id PK | Resolver: c => c.Dependencies.Model.FindEntityType("EmployeeManagement.Models.Employee").FindPrimaryKey()], 
+                keyValues: new object[]{ (object)dataReader.GetInt32(0) }, 
+                throwOnNullKey: True, 
+                hasNullKey: hasNullKey1);
+            !(hasNullKey1) ? entry1 != default(InternalEntityEntry) ? 
+            {
+                entityType1 = entry1.EntityType;
+                return instance1 = (Employee)entry1.Entity;
+            } : 
+            {
+                ISnapshot shadowSnapshot1;
+                shadowSnapshot1 = [LIFTABLE Constant: Snapshot | Resolver: _ => Snapshot.Empty];
+                entityType1 = [LIFTABLE Constant: EntityType: Employee | Resolver: namelessParameter{0} => namelessParameter{0}.Dependencies.Model.FindEntityType("EmployeeManagement.Models.Employee")];
+                instance1 = switch (entityType1)
+                {
+                    case [LIFTABLE Constant: EntityType: Employee | Resolver: namelessParameter{1} => namelessParameter{1}.Dependencies.Model.FindEntityType("EmployeeManagement.Models.Employee")]: 
+                        {
+                            return 
+                            {
+                                Employee instance;
+                                instance = new Employee();
+                                instance.<Id>k__BackingField = dataReader.GetInt32(0);
+                                instance.<Department>k__BackingField = (Dept?)Invoke(((EnumToNumberConverter<Dept, int>)((IReadOnlyProperty)[LIFTABLE Constant: Property: Employee.Department (Dept?) Required | Resolver: namelessParameter{2} => namelessParameter{2}.Dependencies.Model.FindEntityType("EmployeeManagement.Models.Employee").FindProperty("Department")]).GetTypeMapping().Converter).ConvertFromProviderTyped, dataReader.GetInt32(1));
+                                instance.<Email>k__BackingField = dataReader.GetString(2);
+                                instance.<Name>k__BackingField = dataReader.GetString(3);
+                                instance.<PhotoPath>k__BackingField = dataReader.IsDBNull(4) ? default(string) : dataReader.GetString(4);
+                                (instance is IInjectableService) ? ((IInjectableService)instance).Injected(
+                                    context: materializationContext1.Context, 
+                                    entity: instance, 
+                                    queryTrackingBehavior: TrackAll, 
+                                    structuralType: [LIFTABLE Constant: EntityType: Employee | Resolver: namelessParameter{3} => namelessParameter{3}.Dependencies.Model.FindEntityType("EmployeeManagement.Models.Employee")]) : default(void);
+                                return instance;
+                            }}
+                    default: 
+                        default(Employee)
+                }
+                ;
+                entry1 = entityType1 == default(IEntityType) ? default(InternalEntityEntry) : queryContext.StartTracking(
+                    entityType: entityType1, 
+                    entity: instance1, 
+                    snapshot: shadowSnapshot1);
+                return instance1;
+            } : default(void);
+            return instance1;
+        };
+        return entity;
+    }, 
+    contextType: EmployeeManagement.Models.AppDbContext, 
+    standAloneStateManager: False, 
+    detailedErrorsEnabled: False, 
+    threadSafetyChecksEnabled: True)'
+2026-01-23 18:28:13.9600|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Creating DbConnection.
+2026-01-23 18:28:13.9951|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Created DbConnection. (28ms).
+2026-01-23 18:28:13.9986|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Opening connection to database 'EmployeeDB' on server 'localhost'.
+2026-01-23 18:28:14.6758|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Opened connection to database 'EmployeeDB' on server 'localhost'.
+2026-01-23 18:28:14.6792|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Creating DbCommand for 'ExecuteReader'.
+2026-01-23 18:28:14.6914|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Created DbCommand for 'ExecuteReader' (4ms).
+2026-01-23 18:28:14.6937|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Initialized DbCommand for 'ExecuteReader' (15ms).
+2026-01-23 18:28:14.7058|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [e].[Id], [e].[Department], [e].[Email], [e].[Name], [e].[PhotoPath]
+FROM [Employees] AS [e]
+2026-01-23 18:28:14.7561|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (48ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [e].[Id], [e].[Department], [e].[Email], [e].[Name], [e].[PhotoPath]
+FROM [Employees] AS [e]
+2026-01-23 18:28:14.7982|DEBUG|Microsoft.EntityFrameworkCore.ChangeTracking|Context 'AppDbContext' started tracking 'Employee' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2026-01-23 18:28:14.8821|DEBUG|Microsoft.AspNetCore.Routing.DefaultLinkGenerator|Found the endpoints Route: {controller=Home}/{action=Index}/{id?} for address (id=[1],action=[details],controller=[home])
+2026-01-23 18:28:14.8867|DEBUG|Microsoft.AspNetCore.Routing.DefaultLinkGenerator|Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in /home/details/1 and 
+2026-01-23 18:28:14.8878|DEBUG|Microsoft.AspNetCore.Routing.DefaultLinkGenerator|Link generation succeeded for endpoints Route: {controller=Home}/{action=Index}/{id?} with result /home/details/1
+2026-01-23 18:28:14.8912|DEBUG|Microsoft.AspNetCore.Routing.DefaultLinkGenerator|Found the endpoints Route: {controller=Home}/{action=Index}/{id?} for address (id=[1],action=[edit],controller=[home])
+2026-01-23 18:28:14.8917|DEBUG|Microsoft.AspNetCore.Routing.DefaultLinkGenerator|Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in /home/edit/1 and 
+2026-01-23 18:28:14.8917|DEBUG|Microsoft.AspNetCore.Routing.DefaultLinkGenerator|Link generation succeeded for endpoints Route: {controller=Home}/{action=Index}/{id?} with result /home/edit/1
+2026-01-23 18:28:14.8945|DEBUG|Microsoft.EntityFrameworkCore.ChangeTracking|Context 'AppDbContext' started tracking 'Employee' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2026-01-23 18:28:14.8955|DEBUG|Microsoft.AspNetCore.Routing.DefaultLinkGenerator|Found the endpoints Route: {controller=Home}/{action=Index}/{id?} for address (id=[2],action=[details],controller=[home])
+2026-01-23 18:28:14.8955|DEBUG|Microsoft.AspNetCore.Routing.DefaultLinkGenerator|Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in /home/details/2 and 
+2026-01-23 18:28:14.8958|DEBUG|Microsoft.AspNetCore.Routing.DefaultLinkGenerator|Link generation succeeded for endpoints Route: {controller=Home}/{action=Index}/{id?} with result /home/details/2
+2026-01-23 18:28:14.8958|DEBUG|Microsoft.AspNetCore.Routing.DefaultLinkGenerator|Found the endpoints Route: {controller=Home}/{action=Index}/{id?} for address (id=[2],action=[edit],controller=[home])
+2026-01-23 18:28:14.8958|DEBUG|Microsoft.AspNetCore.Routing.DefaultLinkGenerator|Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in /home/edit/2 and 
+2026-01-23 18:28:14.8958|DEBUG|Microsoft.AspNetCore.Routing.DefaultLinkGenerator|Link generation succeeded for endpoints Route: {controller=Home}/{action=Index}/{id?} with result /home/edit/2
+2026-01-23 18:28:14.8958|DEBUG|Microsoft.EntityFrameworkCore.ChangeTracking|Context 'AppDbContext' started tracking 'Employee' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2026-01-23 18:28:14.8967|DEBUG|Microsoft.AspNetCore.Routing.DefaultLinkGenerator|Found the endpoints Route: {controller=Home}/{action=Index}/{id?} for address (id=[3],action=[details],controller=[home])
+2026-01-23 18:28:14.8967|DEBUG|Microsoft.AspNetCore.Routing.DefaultLinkGenerator|Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in /home/details/3 and 
+2026-01-23 18:28:14.8967|DEBUG|Microsoft.AspNetCore.Routing.DefaultLinkGenerator|Link generation succeeded for endpoints Route: {controller=Home}/{action=Index}/{id?} with result /home/details/3
+2026-01-23 18:28:14.8967|DEBUG|Microsoft.AspNetCore.Routing.DefaultLinkGenerator|Found the endpoints Route: {controller=Home}/{action=Index}/{id?} for address (id=[3],action=[edit],controller=[home])
+2026-01-23 18:28:14.8967|DEBUG|Microsoft.AspNetCore.Routing.DefaultLinkGenerator|Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in /home/edit/3 and 
+2026-01-23 18:28:14.8967|DEBUG|Microsoft.AspNetCore.Routing.DefaultLinkGenerator|Link generation succeeded for endpoints Route: {controller=Home}/{action=Index}/{id?} with result /home/edit/3
+2026-01-23 18:28:14.8967|DEBUG|Microsoft.EntityFrameworkCore.ChangeTracking|Context 'AppDbContext' started tracking 'Employee' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2026-01-23 18:28:14.8967|DEBUG|Microsoft.AspNetCore.Routing.DefaultLinkGenerator|Found the endpoints Route: {controller=Home}/{action=Index}/{id?} for address (id=[4],action=[details],controller=[home])
+2026-01-23 18:28:14.8978|DEBUG|Microsoft.AspNetCore.Routing.DefaultLinkGenerator|Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in /home/details/4 and 
+2026-01-23 18:28:14.8978|DEBUG|Microsoft.AspNetCore.Routing.DefaultLinkGenerator|Link generation succeeded for endpoints Route: {controller=Home}/{action=Index}/{id?} with result /home/details/4
+2026-01-23 18:28:14.8978|DEBUG|Microsoft.AspNetCore.Routing.DefaultLinkGenerator|Found the endpoints Route: {controller=Home}/{action=Index}/{id?} for address (id=[4],action=[edit],controller=[home])
+2026-01-23 18:28:14.8978|DEBUG|Microsoft.AspNetCore.Routing.DefaultLinkGenerator|Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in /home/edit/4 and 
+2026-01-23 18:28:14.8978|DEBUG|Microsoft.AspNetCore.Routing.DefaultLinkGenerator|Link generation succeeded for endpoints Route: {controller=Home}/{action=Index}/{id?} with result /home/edit/4
+2026-01-23 18:28:14.8978|DEBUG|Microsoft.EntityFrameworkCore.ChangeTracking|Context 'AppDbContext' started tracking 'Employee' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2026-01-23 18:28:14.8978|DEBUG|Microsoft.AspNetCore.Routing.DefaultLinkGenerator|Found the endpoints Route: {controller=Home}/{action=Index}/{id?} for address (id=[5],action=[details],controller=[home])
+2026-01-23 18:28:14.8987|DEBUG|Microsoft.AspNetCore.Routing.DefaultLinkGenerator|Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in /home/details/5 and 
+2026-01-23 18:28:14.8987|DEBUG|Microsoft.AspNetCore.Routing.DefaultLinkGenerator|Link generation succeeded for endpoints Route: {controller=Home}/{action=Index}/{id?} with result /home/details/5
+2026-01-23 18:28:14.8987|DEBUG|Microsoft.AspNetCore.Routing.DefaultLinkGenerator|Found the endpoints Route: {controller=Home}/{action=Index}/{id?} for address (id=[5],action=[edit],controller=[home])
+2026-01-23 18:28:14.8987|DEBUG|Microsoft.AspNetCore.Routing.DefaultLinkGenerator|Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in /home/edit/5 and 
+2026-01-23 18:28:14.8987|DEBUG|Microsoft.AspNetCore.Routing.DefaultLinkGenerator|Link generation succeeded for endpoints Route: {controller=Home}/{action=Index}/{id?} with result /home/edit/5
+2026-01-23 18:28:14.9000|DEBUG|Microsoft.EntityFrameworkCore.ChangeTracking|Context 'AppDbContext' started tracking 'Employee' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2026-01-23 18:28:14.9018|DEBUG|Microsoft.AspNetCore.Routing.DefaultLinkGenerator|Found the endpoints Route: {controller=Home}/{action=Index}/{id?} for address (id=[6],action=[details],controller=[home])
+2026-01-23 18:28:14.9018|DEBUG|Microsoft.AspNetCore.Routing.DefaultLinkGenerator|Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in /home/details/6 and 
+2026-01-23 18:28:14.9018|DEBUG|Microsoft.AspNetCore.Routing.DefaultLinkGenerator|Link generation succeeded for endpoints Route: {controller=Home}/{action=Index}/{id?} with result /home/details/6
+2026-01-23 18:28:14.9018|DEBUG|Microsoft.AspNetCore.Routing.DefaultLinkGenerator|Found the endpoints Route: {controller=Home}/{action=Index}/{id?} for address (id=[6],action=[edit],controller=[home])
+2026-01-23 18:28:14.9018|DEBUG|Microsoft.AspNetCore.Routing.DefaultLinkGenerator|Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in /home/edit/6 and 
+2026-01-23 18:28:14.9018|DEBUG|Microsoft.AspNetCore.Routing.DefaultLinkGenerator|Link generation succeeded for endpoints Route: {controller=Home}/{action=Index}/{id?} with result /home/edit/6
+2026-01-23 18:28:14.9030|DEBUG|Microsoft.EntityFrameworkCore.ChangeTracking|Context 'AppDbContext' started tracking 'Employee' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2026-01-23 18:28:14.9447|DEBUG|Microsoft.AspNetCore.Routing.DefaultLinkGenerator|Found the endpoints Route: {controller=Home}/{action=Index}/{id?} for address (id=[7],action=[details],controller=[home])
+2026-01-23 18:28:14.9451|DEBUG|Microsoft.AspNetCore.Routing.DefaultLinkGenerator|Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in /home/details/7 and 
+2026-01-23 18:28:14.9451|DEBUG|Microsoft.AspNetCore.Routing.DefaultLinkGenerator|Link generation succeeded for endpoints Route: {controller=Home}/{action=Index}/{id?} with result /home/details/7
+2026-01-23 18:28:14.9451|DEBUG|Microsoft.AspNetCore.Routing.DefaultLinkGenerator|Found the endpoints Route: {controller=Home}/{action=Index}/{id?} for address (id=[7],action=[edit],controller=[home])
+2026-01-23 18:28:14.9451|DEBUG|Microsoft.AspNetCore.Routing.DefaultLinkGenerator|Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in /home/edit/7 and 
+2026-01-23 18:28:14.9451|DEBUG|Microsoft.AspNetCore.Routing.DefaultLinkGenerator|Link generation succeeded for endpoints Route: {controller=Home}/{action=Index}/{id?} with result /home/edit/7
+2026-01-23 18:28:14.9459|DEBUG|Microsoft.EntityFrameworkCore.ChangeTracking|Context 'AppDbContext' started tracking 'Employee' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2026-01-23 18:28:14.9478|DEBUG|Microsoft.AspNetCore.Routing.DefaultLinkGenerator|Found the endpoints Route: {controller=Home}/{action=Index}/{id?} for address (id=[8],action=[details],controller=[home])
+2026-01-23 18:28:14.9478|DEBUG|Microsoft.AspNetCore.Routing.DefaultLinkGenerator|Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in /home/details/8 and 
+2026-01-23 18:28:14.9478|DEBUG|Microsoft.AspNetCore.Routing.DefaultLinkGenerator|Link generation succeeded for endpoints Route: {controller=Home}/{action=Index}/{id?} with result /home/details/8
+2026-01-23 18:28:14.9478|DEBUG|Microsoft.AspNetCore.Routing.DefaultLinkGenerator|Found the endpoints Route: {controller=Home}/{action=Index}/{id?} for address (id=[8],action=[edit],controller=[home])
+2026-01-23 18:28:14.9478|DEBUG|Microsoft.AspNetCore.Routing.DefaultLinkGenerator|Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in /home/edit/8 and 
+2026-01-23 18:28:14.9478|DEBUG|Microsoft.AspNetCore.Routing.DefaultLinkGenerator|Link generation succeeded for endpoints Route: {controller=Home}/{action=Index}/{id?} with result /home/edit/8
+2026-01-23 18:28:14.9478|DEBUG|Microsoft.EntityFrameworkCore.ChangeTracking|Context 'AppDbContext' started tracking 'Employee' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2026-01-23 18:28:14.9900|DEBUG|Microsoft.AspNetCore.Routing.DefaultLinkGenerator|Found the endpoints Route: {controller=Home}/{action=Index}/{id?} for address (id=[9],action=[details],controller=[home])
+2026-01-23 18:28:14.9900|DEBUG|Microsoft.AspNetCore.Routing.DefaultLinkGenerator|Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in /home/details/9 and 
+2026-01-23 18:28:14.9900|DEBUG|Microsoft.AspNetCore.Routing.DefaultLinkGenerator|Link generation succeeded for endpoints Route: {controller=Home}/{action=Index}/{id?} with result /home/details/9
+2026-01-23 18:28:14.9900|DEBUG|Microsoft.AspNetCore.Routing.DefaultLinkGenerator|Found the endpoints Route: {controller=Home}/{action=Index}/{id?} for address (id=[9],action=[edit],controller=[home])
+2026-01-23 18:28:14.9900|DEBUG|Microsoft.AspNetCore.Routing.DefaultLinkGenerator|Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in /home/edit/9 and 
+2026-01-23 18:28:14.9908|DEBUG|Microsoft.AspNetCore.Routing.DefaultLinkGenerator|Link generation succeeded for endpoints Route: {controller=Home}/{action=Index}/{id?} with result /home/edit/9
+2026-01-23 18:28:14.9956|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Closing data reader to 'EmployeeDB' on server 'localhost'.
+2026-01-23 18:28:15.0078|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|A data reader for 'EmployeeDB' on server 'localhost' is being disposed after spending 240ms reading results.
+2026-01-23 18:28:15.0104|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Closing connection to database 'EmployeeDB' on server 'localhost'.
+2026-01-23 18:28:15.0183|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Closed connection to database 'EmployeeDB' on server 'localhost' (7ms).
+2026-01-23 18:28:15.0194|DEBUG|Microsoft.AspNetCore.Mvc.Razor.RazorViewEngine|View lookup cache miss for view '_Layout' in controller 'Home'.
+2026-01-23 18:28:15.0194|TRACE|Microsoft.AspNetCore.Mvc.Razor.Compilation.DefaultViewCompiler|Could not find a file for view at path '/Views/Home/_Layout.cshtml'.
+2026-01-23 18:28:15.0198|TRACE|Microsoft.AspNetCore.Mvc.Razor.Compilation.DefaultViewCompiler|Located compiled view for view at path '/Views/Shared/_Layout.cshtml'.
+2026-01-23 18:28:15.0879|DEBUG|Microsoft.AspNetCore.Routing.DefaultLinkGenerator|Found the endpoints Route: {controller=Home}/{action=Index}/{id?} for address (action=[index],controller=[home])
+2026-01-23 18:28:15.0879|DEBUG|Microsoft.AspNetCore.Routing.DefaultLinkGenerator|Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in  and 
+2026-01-23 18:28:15.0879|DEBUG|Microsoft.AspNetCore.Routing.DefaultLinkGenerator|Link generation succeeded for endpoints Route: {controller=Home}/{action=Index}/{id?} with result /
+2026-01-23 18:28:15.0918|DEBUG|Microsoft.AspNetCore.Routing.DefaultLinkGenerator|Found the endpoints Route: {controller=Home}/{action=Index}/{id?} for address (action=[index],controller=[home])
+2026-01-23 18:28:15.0918|DEBUG|Microsoft.AspNetCore.Routing.DefaultLinkGenerator|Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in  and 
+2026-01-23 18:28:15.0918|DEBUG|Microsoft.AspNetCore.Routing.DefaultLinkGenerator|Link generation succeeded for endpoints Route: {controller=Home}/{action=Index}/{id?} with result /
+2026-01-23 18:28:15.0928|DEBUG|Microsoft.AspNetCore.Routing.DefaultLinkGenerator|Found the endpoints Route: {controller=Home}/{action=Index}/{id?} for address (action=[create],controller=[home])
+2026-01-23 18:28:15.0928|DEBUG|Microsoft.AspNetCore.Routing.DefaultLinkGenerator|Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in /home/create and 
+2026-01-23 18:28:15.0928|DEBUG|Microsoft.AspNetCore.Routing.DefaultLinkGenerator|Link generation succeeded for endpoints Route: {controller=Home}/{action=Index}/{id?} with result /home/create
+2026-01-23 18:28:15.1133|DEBUG|Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware|Response markup is scheduled to include browser refresh script injection.
+2026-01-23 18:28:15.1245|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executed ViewResult - view Index executed in 2693.3825ms.
+2026-01-23 18:28:15.1248|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|After executing action result Microsoft.AspNetCore.Mvc.ViewResult.
+2026-01-23 18:28:15.1248|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: Before executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter.
+2026-01-23 18:28:15.1248|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: After executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter.
+2026-01-23 18:28:15.1248|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Resource Filter: Before executing OnResourceExecuted on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter.
+2026-01-23 18:28:15.1248|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Resource Filter: After executing OnResourceExecuted on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter.
+2026-01-23 18:28:15.1261|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action EmployeeManagement.Controllers.HomeController.Index (EmployeeManagement) in 2990.4445ms
+2026-01-23 18:28:15.1261|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'EmployeeManagement.Controllers.HomeController.Index (EmployeeManagement)'
+2026-01-23 18:28:15.1293|DEBUG|Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware|Response markup was updated to include browser refresh script injection.
+2026-01-23 18:28:15.1299|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HNIQKJ48RC5P" completed keep alive response.
+2026-01-23 18:28:15.1572|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:5181/ - 200 - text/html;+charset=utf-8 3179.8383ms
+2026-01-23 18:28:15.1796|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:5181/_framework/aspnetcore-browser-refresh.js - - -
+2026-01-23 18:28:15.1863|DEBUG|Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserScriptMiddleware|Script injected: /_framework/aspnetcore-browser-refresh.js
+2026-01-23 18:28:15.1863|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HNIQKJ48RC5P" completed keep alive response.
+2026-01-23 18:28:15.1873|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:5181/_framework/aspnetcore-browser-refresh.js - 200 16091 application/javascript;+charset=utf-8 7.2671ms
+2026-01-23 18:28:15.1991|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:5181/images/3dd47d9e-5965-459c-9399-2a198218369a_about1.jpg?v=5gp3my6x6l0NDXodf0m2hbnHp--TjyRkTSf97PbmY98 - - -
+2026-01-23 18:28:15.1999|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed.
+2026-01-23 18:28:15.2025|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|No candidates found for the request path '/images/3dd47d9e-5965-459c-9399-2a198218369a_about1.jpg'
+2026-01-23 18:28:15.2027|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request did not match any endpoints
+2026-01-23 18:28:15.2091|TRACE|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Range header's value is empty.
+2026-01-23 18:28:15.2097|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The file /images/3dd47d9e-5965-459c-9399-2a198218369a_about1.jpg was not modified
+2026-01-23 18:28:15.2097|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Handled. Status code: 304 File: /images/3dd47d9e-5965-459c-9399-2a198218369a_about1.jpg
+2026-01-23 18:28:15.2188|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HNIQKJ48RC5P" completed keep alive response.
+2026-01-23 18:28:15.2188|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:5181/images/3dd47d9e-5965-459c-9399-2a198218369a_about1.jpg?v=5gp3my6x6l0NDXodf0m2hbnHp--TjyRkTSf97PbmY98 - 304 - image/jpeg 20.0411ms
+2026-01-23 18:28:18.3036|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:5181/home/details/1 - - -
+2026-01-23 18:28:18.3038|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed.
+2026-01-23 18:28:18.3060|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|1 candidate(s) found for the request path '/home/details/1'
+2026-01-23 18:28:18.3060|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|Endpoint 'EmployeeManagement.Controllers.HomeController.Details (EmployeeManagement)' with route pattern '{controller=Home}/{action=Index}/{id?}' is valid for the request path '/home/details/1'
+2026-01-23 18:28:18.3060|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request matched endpoint 'EmployeeManagement.Controllers.HomeController.Details (EmployeeManagement)'
+2026-01-23 18:28:18.3060|TRACE|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|The endpoint does not specify the IRequestSizeLimitMetadata.
+2026-01-23 18:28:18.3086|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Static files was skipped as the request already matched an endpoint.
+2026-01-23 18:28:18.3089|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'EmployeeManagement.Controllers.HomeController.Details (EmployeeManagement)'
+2026-01-23 18:28:18.3267|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "Details", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ViewResult Details(System.Nullable`1[System.Int32]) on controller EmployeeManagement.Controllers.HomeController (EmployeeManagement).
+2026-01-23 18:28:18.3269|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of authorization filters (in the following order): None
+2026-01-23 18:28:18.3269|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of resource filters (in the following order): Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter
+2026-01-23 18:28:18.3269|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter (Order: -2147483648), Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)
+2026-01-23 18:28:18.3269|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of exception filters (in the following order): None
+2026-01-23 18:28:18.3269|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter
+2026-01-23 18:28:18.3269|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Resource Filter: Before executing OnResourceExecuting on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter.
+2026-01-23 18:28:18.3269|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Resource Filter: After executing OnResourceExecuting on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter.
+2026-01-23 18:28:18.3278|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing controller factory for controller EmployeeManagement.Controllers.HomeController (EmployeeManagement)
+2026-01-23 18:28:18.3297|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed controller factory for controller EmployeeManagement.Controllers.HomeController (EmployeeManagement)
+2026-01-23 18:28:18.3376|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Attempting to bind parameter 'id' of type 'System.Nullable`1[System.Int32]' ...
+2026-01-23 18:28:18.3404|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinder|Attempting to bind parameter 'id' of type 'System.Nullable`1[System.Int32]' using the name 'id' in request data ...
+2026-01-23 18:28:18.3410|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinder|Done attempting to bind parameter 'id' of type 'System.Nullable`1[System.Int32]'.
+2026-01-23 18:28:18.3410|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Done attempting to bind parameter 'id' of type 'System.Nullable`1[System.Int32]'.
+2026-01-23 18:28:18.3410|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Attempting to validate the bound parameter 'id' of type 'System.Nullable`1[System.Int32]' ...
+2026-01-23 18:28:18.3429|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Done attempting to validate the bound parameter 'id' of type 'System.Nullable`1[System.Int32]'.
+2026-01-23 18:28:18.3447|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecutionAsync on filter Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter.
+2026-01-23 18:28:18.3448|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2026-01-23 18:28:18.3448|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2026-01-23 18:28:18.3448|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing action method EmployeeManagement.Controllers.HomeController.Details (EmployeeManagement) - Validation state: Valid
+2026-01-23 18:28:18.3448|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing action method EmployeeManagement.Controllers.HomeController.Details (EmployeeManagement) with arguments (1)
+2026-01-23 18:28:18.3465|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2026-01-23 18:28:18.3465|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2026-01-23 18:28:18.3468|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecutionAsync on filter Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter.
+2026-01-23 18:28:18.3468|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Resource Filter: Before executing OnResourceExecuted on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter.
+2026-01-23 18:28:18.3468|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Resource Filter: After executing OnResourceExecuted on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter.
+2026-01-23 18:28:18.3468|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action EmployeeManagement.Controllers.HomeController.Details (EmployeeManagement) in 20.2961ms
+2026-01-23 18:28:18.3483|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'EmployeeManagement.Controllers.HomeController.Details (EmployeeManagement)'
+2026-01-23 18:28:18.3713|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|1 candidate(s) found for the request path '/Error'
+2026-01-23 18:28:18.3713|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|Endpoint 'EmployeeManagement.Controllers.ErrorController.Error (EmployeeManagement)' with route pattern 'Error' is valid for the request path '/Error'
+2026-01-23 18:28:18.3713|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request matched endpoint 'EmployeeManagement.Controllers.ErrorController.Error (EmployeeManagement)'
+2026-01-23 18:28:18.3713|TRACE|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|The endpoint does not specify the IRequestSizeLimitMetadata.
+2026-01-23 18:28:18.3719|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Static files was skipped as the request already matched an endpoint.
+2026-01-23 18:28:18.3719|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'EmployeeManagement.Controllers.ErrorController.Error (EmployeeManagement)'
+2026-01-23 18:28:18.3741|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "Error", controller = "Error"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Error() on controller EmployeeManagement.Controllers.ErrorController (EmployeeManagement).
+2026-01-23 18:28:18.3741|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of authorization filters (in the following order): None
+2026-01-23 18:28:18.3741|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of resource filters (in the following order): Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter
+2026-01-23 18:28:18.3741|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter (Order: -2147483648), Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)
+2026-01-23 18:28:18.3741|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of exception filters (in the following order): None
+2026-01-23 18:28:18.3741|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter
+2026-01-23 18:28:18.3741|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Resource Filter: Before executing OnResourceExecuting on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter.
+2026-01-23 18:28:18.3747|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Resource Filter: After executing OnResourceExecuting on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter.
+2026-01-23 18:28:18.3747|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing controller factory for controller EmployeeManagement.Controllers.ErrorController (EmployeeManagement)
+2026-01-23 18:28:18.3747|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed controller factory for controller EmployeeManagement.Controllers.ErrorController (EmployeeManagement)
+2026-01-23 18:28:18.3747|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecutionAsync on filter Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter.
+2026-01-23 18:28:18.3747|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2026-01-23 18:28:18.3747|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2026-01-23 18:28:18.3747|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing action method EmployeeManagement.Controllers.ErrorController.Error (EmployeeManagement) - Validation state: Valid
+2026-01-23 18:28:18.3968|ERROR|EmployeeManagement.Controllers.ErrorController|The Path /home/details/1 threw an exception System.Exception: Error
+   at EmployeeManagement.Controllers.HomeController.Details(Nullable`1 id) in /home/alchemistlowkey/Desktop/csharp/EmployeeManagement/EmployeeManagement/Controllers/HomeController.cs:line 36
+   at lambda_method74(Closure, Object, Object[])
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Diagnostics.StatusCodePagesMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|10_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+2026-01-23 18:28:18.3968|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action method EmployeeManagement.Controllers.ErrorController.Error (EmployeeManagement), returned result Microsoft.AspNetCore.Mvc.ViewResult in 21.3119ms.
+2026-01-23 18:28:18.3968|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2026-01-23 18:28:18.3968|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2026-01-23 18:28:18.3968|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecutionAsync on filter Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter.
+2026-01-23 18:28:18.3968|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: Before executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter.
+2026-01-23 18:28:18.3968|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: After executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter.
+2026-01-23 18:28:18.3978|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Before executing action result Microsoft.AspNetCore.Mvc.ViewResult.
+2026-01-23 18:28:18.3978|DEBUG|Microsoft.AspNetCore.Mvc.Razor.RazorViewEngine|View lookup cache miss for view 'Error' in controller 'Error'.
+2026-01-23 18:28:18.3978|TRACE|Microsoft.AspNetCore.Mvc.Razor.Compilation.DefaultViewCompiler|Could not find a file for view at path '/Views/Error/Error.cshtml'.
+2026-01-23 18:28:18.3978|TRACE|Microsoft.AspNetCore.Mvc.Razor.Compilation.DefaultViewCompiler|Located compiled view for view at path '/Views/Shared/Error.cshtml'.
+2026-01-23 18:28:18.3993|TRACE|Microsoft.AspNetCore.Mvc.Razor.Compilation.DefaultViewCompiler|Could not find a file for view at path '/Views/Shared/_ViewStart.cshtml'.
+2026-01-23 18:28:18.3993|TRACE|Microsoft.AspNetCore.Mvc.Razor.Compilation.DefaultViewCompiler|Located compiled view for view at path '/Views/_ViewStart.cshtml'.
+2026-01-23 18:28:18.4000|TRACE|Microsoft.AspNetCore.Mvc.Razor.Compilation.DefaultViewCompiler|Could not find a file for view at path '/_ViewStart.cshtml'.
+2026-01-23 18:28:18.4015|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executing ViewResult, running view Error.
+2026-01-23 18:28:18.4018|DEBUG|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|The view path '/Views/Shared/Error.cshtml' was found in 3.6716ms.
+2026-01-23 18:28:18.4191|DEBUG|Microsoft.AspNetCore.Mvc.Razor.RazorViewEngine|View lookup cache miss for view '_Layout' in controller 'Error'.
+2026-01-23 18:28:18.4191|TRACE|Microsoft.AspNetCore.Mvc.Razor.Compilation.DefaultViewCompiler|Could not find a file for view at path '/Views/Error/_Layout.cshtml'.
+2026-01-23 18:28:18.4191|TRACE|Microsoft.AspNetCore.Mvc.Razor.Compilation.DefaultViewCompiler|Located compiled view for view at path '/Views/Shared/_Layout.cshtml'.
+2026-01-23 18:28:18.4290|DEBUG|Microsoft.AspNetCore.Routing.DefaultLinkGenerator|Found the endpoints Route: {controller=Home}/{action=Index}/{id?} for address (action=[index],controller=[home])
+2026-01-23 18:28:18.4290|DEBUG|Microsoft.AspNetCore.Routing.DefaultLinkGenerator|Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in  and 
+2026-01-23 18:28:18.4290|DEBUG|Microsoft.AspNetCore.Routing.DefaultLinkGenerator|Link generation succeeded for endpoints Route: {controller=Home}/{action=Index}/{id?} with result /
+2026-01-23 18:28:18.4297|DEBUG|Microsoft.AspNetCore.Routing.DefaultLinkGenerator|Found the endpoints Route: {controller=Home}/{action=Index}/{id?} for address (action=[index],controller=[home])
+2026-01-23 18:28:18.4297|DEBUG|Microsoft.AspNetCore.Routing.DefaultLinkGenerator|Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in  and 
+2026-01-23 18:28:18.4297|DEBUG|Microsoft.AspNetCore.Routing.DefaultLinkGenerator|Link generation succeeded for endpoints Route: {controller=Home}/{action=Index}/{id?} with result /
+2026-01-23 18:28:18.4297|DEBUG|Microsoft.AspNetCore.Routing.DefaultLinkGenerator|Found the endpoints Route: {controller=Home}/{action=Index}/{id?} for address (action=[create],controller=[home])
+2026-01-23 18:28:18.4297|DEBUG|Microsoft.AspNetCore.Routing.DefaultLinkGenerator|Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in /home/create and 
+2026-01-23 18:28:18.4297|DEBUG|Microsoft.AspNetCore.Routing.DefaultLinkGenerator|Link generation succeeded for endpoints Route: {controller=Home}/{action=Index}/{id?} with result /home/create
+2026-01-23 18:28:18.4307|DEBUG|Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware|Response markup is scheduled to include browser refresh script injection.
+2026-01-23 18:28:18.4307|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executed ViewResult - view Error executed in 33.5255ms.
+2026-01-23 18:28:18.4307|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|After executing action result Microsoft.AspNetCore.Mvc.ViewResult.
+2026-01-23 18:28:18.4307|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: Before executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter.
+2026-01-23 18:28:18.4318|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: After executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter.
+2026-01-23 18:28:18.4318|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Resource Filter: Before executing OnResourceExecuted on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter.
+2026-01-23 18:28:18.4318|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Resource Filter: After executing OnResourceExecuted on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter.
+2026-01-23 18:28:18.4318|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action EmployeeManagement.Controllers.ErrorController.Error (EmployeeManagement) in 57.3522ms
+2026-01-23 18:28:18.4318|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'EmployeeManagement.Controllers.ErrorController.Error (EmployeeManagement)'
+2026-01-23 18:28:18.4402|ERROR|Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware|An unhandled exception has occurred while executing the request.|System.Exception: Error
+   at EmployeeManagement.Controllers.HomeController.Details(Nullable`1 id) in /home/alchemistlowkey/Desktop/csharp/EmployeeManagement/EmployeeManagement/Controllers/HomeController.cs:line 36
+   at lambda_method74(Closure, Object, Object[])
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Diagnostics.StatusCodePagesMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|10_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+2026-01-23 18:28:18.4449|DEBUG|Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware|Response markup was updated to include browser refresh script injection.
+2026-01-23 18:28:18.4449|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HNIQKJ48RC5P" completed keep alive response.
+2026-01-23 18:28:18.4461|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:5181/home/details/1 - 500 - text/html;+charset=utf-8 142.4038ms
+2026-01-23 18:28:18.4737|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:5181/_framework/aspnetcore-browser-refresh.js - - -
+2026-01-23 18:28:18.4743|DEBUG|Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserScriptMiddleware|Script injected: /_framework/aspnetcore-browser-refresh.js
+2026-01-23 18:28:18.4743|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HNIQKJ48RC5P" completed keep alive response.
+2026-01-23 18:28:18.4743|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:5181/_framework/aspnetcore-browser-refresh.js - 200 16091 application/javascript;+charset=utf-8 0.7905ms
+2026-01-23 18:30:20.3754|INFO|Microsoft.Hosting.Lifetime|Application is shutting down...
+2026-01-23 18:30:20.3770|DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting stopping
+2026-01-23 18:30:20.3911|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HNIQKJ48RC5P" disconnecting.
+2026-01-23 18:30:20.3930|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HNIQKJ48RC5Q" disconnecting.
+2026-01-23 18:30:20.3941|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HNIQKJ48RC5P" stopped.
+2026-01-23 18:30:20.3953|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HNIQKJ48RC5P" sending FIN because: "The Socket transport's send loop completed gracefully."
+2026-01-23 18:30:20.3957|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HNIQKJ48RC5Q" stopped.
+2026-01-23 18:30:20.3957|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HNIQKJ48RC5Q" sending FIN because: "The Socket transport's send loop completed gracefully."
+2026-01-23 18:30:20.4082|DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting stopped

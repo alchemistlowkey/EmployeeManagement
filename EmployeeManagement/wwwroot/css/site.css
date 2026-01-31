@@ -1,0 +1,15 @@
+/* wwwroot/css/site.css */
+/* @import "tailwindcss"; */
+
+/* @plugin "daisyui";   ← optional, remove if not using daisyUI */
+
+/* You can add custom styles here too */
+
+.btn {
+  width: 150px;
+}
+
+.imageThumbnail {
+  height: 200px;
+  width: auto;
+}
