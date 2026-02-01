@@ -290,31 +290,45 @@ options.Lockout.DefaultLockoutTimeSpan = TimeSpan.FromMinutes(15);
 ### Managing Employees
 
 **List Employees**: Navigate to home page
+
 **Create Employee**: Click "Create" → Fill form → Upload photo (optional)
+
 **View Details**: Click employee name
+
 **Edit Employee**: Click "Edit" on details page
+
 **Delete Employee**: Not implemented (can be added)
 
 ### Managing Users (Admin Only)
 
 **List Users**: Navigate to /Administration/ListUsers
+
 **Edit User**: Click "Edit" → Update email, username, city
+
 **Manage Roles**: Click "Manage Roles" → Select/deselect roles
+
 **Manage Claims**: Click "Manage Claims" → Select/deselect claims
+
 **Delete User**: Click "Delete" → Confirm
 
 ### Managing Roles (Admin Only)
 
 **List Roles**: Navigate to /Administration/ListRoles
+
 **Create Role**: Click "Create Role" → Enter role name
+
 **Edit Role**: Click role name → Update name and users
+
 **Delete Role**: Click "Delete" (requires Delete Role claim)
 
 ### Password Management
 
 **Change Password**: /Account/ChangePassword (for users with local password)
+
 **Add Password**: /Account/AddPassword (for external login users)
+
 **Forgot Password**: Click "Forgot Password" on login page
+
 **Reset Password**: Use link from forgot password email
 
 ### Troubleshooting
